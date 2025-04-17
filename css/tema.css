@@ -40,3 +40,7 @@
     left: 1px;
     transition: transform 0.3s ease;
 }
+
+.switch-tema input:checked::before{
+    transform: translateX(20px)
+}
